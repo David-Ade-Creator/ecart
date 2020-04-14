@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+body{
+  width:100vw;
+  height: 100vh;
+}
+header{
+  height: 15%;
+  background-image: url("resources/rowaf.jpg");
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  cursor: default;
+}
+header h2{
+  color: white;
+}
+header ul li,a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: inline-block;
+  font-size: 17px;
+  background-color:#ad1522;
+  padding: 3px;
+  box-shadow: none;
+}
+
+.products-container{
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.product-header{
+  width:100%;
+  max-width:650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+.product-title{
+  width: 45%;
+}
+.price{
+  width:15%;
+  display: flex;
+  align-items: center;
+}
+.quantity{
+  width:30%;
+  display: flex;
+  align-items: center;
+}
+.total{
+  width:10%;
+  display: flex;
+  align-items: center;
+}
+.product-info{
+width:100%;
+margin-top: 10px;
+}
+.products{
+  display: flex;
+  margin-bottom: 20px;
+}
+.img-info{
+  width:45%;
+}
+.img-info .delete{
+  background-color: white;
+  color:red;
+  width:20px;
+  height: 20px;
+  padding: 2px;
+  position:absolute;
+}
+.product-info .price{
+  width:15%;
+}
+.product-info .quantity{
+  width:30%;
+  align-items: center;
+}
+.product-info .quantity .dec,.incr{
+  margin: 10px;
+  font-size: 25px;
+}
+.product-info .total{
+  width:10%;
+  align-items: center;
+}
+.totalcost{
+  width: 100%;
+  height: 30px;
+text-align: center;
+}
+.product-info .orderbtn{
+  width:60px;
+  height: 40px;
+  background-color: #ad1522;
+  color:white;
+  border:none;
+  outline:none;
+  cursor: pointer;
+}
