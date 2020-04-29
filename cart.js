@@ -1,4 +1,3 @@
-
 let cartItems = localStorage.getItem("productInCart");
 cartItems = JSON.parse(cartItems);
 let productInfo = document.querySelector('.product-info');

@@ -37,7 +37,6 @@ width:100%;
 height: 100vh;
 }
 .container .product{
-  position: relative;
   width: 300px;
   height: 400px;
   background: white;
@@ -65,4 +64,27 @@ height: 100vh;
 }
 .container .product .btn .add-cart:hover{
   color:#ad1522;
+}
+@media screen and (max-width:991px){
+  header{
+    height: 10%;
+  }
+  header h2{
+    font-size: 50px;
+  }
+  header ul li, .link{
+    font-size: 40px;
+  }
+  .container .product{
+    width: 50%;
+    height:40%;
+    background: white;
+    border: 0.5px solid #f2f5f4;
+  }
+  .container .product .add-cart{
+    font-size: 50px;
+  }
+  .container .product .text{
+    font-size: 30px;
+  }
 }
